@@ -3,7 +3,7 @@ package MainPackage;
 import java.io.*;
 import java.util.Scanner;
 
-public class MyTextMangler {
+public class ExpandTranslate {
 	
 	public static void main(String[] args) {
 		
