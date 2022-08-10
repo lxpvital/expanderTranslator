@@ -7,7 +7,7 @@ public class ExpandTranslate {
 	
 	public static void main(String[] args) {
 		
-		String fname = "/Users/lxp/eclipse-workspace/data/myInputFile.txt"; 
+		String fname = "/Users/lxp/eclipse-workspace/Expander/data/myInputFile.txt"; 
 		
 		File f = new File(fname); 
 		
@@ -19,7 +19,7 @@ public class ExpandTranslate {
         System.out.println("Absolute path:"+f.getAbsolutePath()); 
         System.out.println("Parent:"+f.getParent());  
         System.out.println("Exists :"+f.exists());   
-        if(f.exists()) 
+   /*    if(f.exists()) 
         { 
             System.out.println("Is writeable: "+f.canWrite()); 
             System.out.println("Is readable: "+f.canRead()); 
@@ -38,7 +38,7 @@ public class ExpandTranslate {
 	        input.close();
 		} catch (Exception ex) {
 	        ex.printStackTrace();
-	    }
+	    } */
 	}
 
 }
