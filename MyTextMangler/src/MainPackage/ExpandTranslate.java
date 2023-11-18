@@ -11,17 +11,17 @@ public class ExpandTranslate {
 		
 		File f = new File(fname); 
 		
-	    System.out.println(Messages.getString("HelloWorld3")); //$NON-NLS-1$
-	    String myString = Messages.getString("John"); //$NON-NLS-1$
+	    System.out.println(Messages.getString("FirstPhrase")); //$NON-NLS-1$
+	    String myString = Messages.getString("SecondPhrase"); //$NON-NLS-1$
 		System.out.println(myString);
-		System.out.println("File name :"+f.getName());  
+		System.out.println("File name : "+f.getName());  
         System.out.println("Path:"+f.getPath());  
         System.out.println("Absolute path:"+f.getAbsolutePath()); 
         System.out.println("Parent:"+f.getParent());  
         System.out.println("Exists :"+f.exists());   
    /*    if(f.exists()) 
         { 
-            System.out.println("Is writeable: "+f.canWrite()); 
+            System.out.println("Is writable: "+f.canWrite()); 
             System.out.println("Is readable: "+f.canRead()); 
             System.out.println("Is a directory: "+f.isDirectory()); 
             System.out.println("File Size in bytes "+f.length()); 
