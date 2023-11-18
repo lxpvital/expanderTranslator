@@ -10,13 +10,13 @@ import javax.swing.JTextField;
 
 import java.awt.event.ActionListener;
 
-public class MyJButton implements ActionListener {
+public class TextMangler implements ActionListener {
     JFrame frame;
     JButton button;
 	JTextField txtname, txtcity;
 	JLabel lblname, lblcity;
      
-    public  MyJButton() {
+    public  TextMangler() {
         frame = new JFrame();
         frame.setTitle("Text Mangler");
         frame.setSize(1000, 800);
@@ -47,6 +47,6 @@ public class MyJButton implements ActionListener {
     }
      
     public static void main(String args[]){
-      MyJButton MyJButton = new MyJButton();
+      TextMangler MyJButton = new TextMangler();
     }
 }
